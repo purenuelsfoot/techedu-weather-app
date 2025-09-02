@@ -1,0 +1,65 @@
+body {
+  background: #4f5157;
+  font-family: inter;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.header .links {
+  display: flex;
+  gap: 1rem;
+}
+
+.back-img {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  opacity: 70%;
+}
+
+.logo {
+  width: 120px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.6588235294);
+  background-image: url(images/Rectangle\ 4.png);
+  background-repeat: no-repeat;
+  background-position: 2% 50%;
+  height: 50px;
+  width: 250px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.image3 {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  z-index: -1;
+}
+
+.image2 {
+  position: absolute;
+  right: 15%;
+  width: 450px;
+}
+
+.image1 {
+  position: absolute;
+  right: 29.5%;
+  top: 30%;
+  width: 330px;
+}/*# sourceMappingURL=revision.css.map */
